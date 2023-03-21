@@ -10,13 +10,21 @@ Frontier Set Sites are asked to submit longitudinal student-level data each acad
 Different types of data are collected: institutional characteristics and institution-level data such as course information, and student-unit-record (SUR) data. Student demographics and previous education, academic progress, and National Student Clearinghouse data (to identify students’ prior and subsequent enrollments and credentials) are collected at the student level. General data collection information follows; details about file structures, data submission methods, and specific data definitions are included in the Data Dictionary and File Creation section of this document.
 ## Data Fields
 |Variable|Description| 
-|ReferDevMath|whether the student is referred to developmental Math according to the completion of the mathematics course. 1 means complete, 0 means incomplete. | 
+|----|-----|
+|ReferDevMath|whether the student is referred to developmental Math according to the completion of the mathematics course. 1 means complete, 0 means incomplete. |
+|----|-----| 
 |FinishDevMath|whether the student complete the developmental English. 1 means finish, 0 means not finish. |
-|DoubleDegre|whether the student is double majoring. 1 means double, 0 means not double. |   
+|----|-----|
+|DoubleDegre|whether the student is double majoring. 1 means double, 0 means not double. | 
+|----|-----|  
 |AwarReceived|whether to the reward has been received.1 means Yes, 0 means No. |
+|----|-----|
 |LastTermGPA|student’s average GPA earned for the last term. |
+|----|-----|
 |LastCumGPA|student’s cumulative GPA earned for last term.|
+|----|-----|
 |avgTermGPA|student’s cumulative grade point average earned for all terms, up to and including the current term. Based on credits used toward student’s credential and reported on a 4-point scale.|
+|----|-----|
 |LastCumGPA|student’s cumulative grade point average earned for all terms, up to and including the current term. Based on credits used toward student’s credential and reported on a 4-point scale. And we merge all above variables into one data frame.|     
 ## Data Volume
 1000*35variables
