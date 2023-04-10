@@ -35,8 +35,11 @@ def squarer(n):
 squarer(2)
 
 A.4
+
 B.5
+
 C.6
+
 D.7
 
 Correct Answer: D
@@ -75,8 +78,11 @@ arr = [1,2,0,3,5]
 print(sumArray(arr,s))
 
 A.2
+
 B.12035
+
 C.11
+
 D.None of these
 
 Correct Answer: C
@@ -120,8 +126,11 @@ def matrix(n):
 matrix(5)
 
 A.4
+
 B.5
+
 C.6
+
 D.7
 
 Correct Answer: B
@@ -156,8 +165,11 @@ def matrix(n):
 matrix(5)
 
 A.5
+
 B.3
+
 C.2
+
 D.0
 
 Correct Answer:D
