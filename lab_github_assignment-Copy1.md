@@ -177,6 +177,9 @@ Correct Answer:D
 There are no occurrences of the number 5 in the output of the given code. The output consists of several lines, each with increasing numbers from 1 up to the line number minus 1. Here is the full output:
 
 1
+
 1 2
+
 1 2 3
+
 1 2 3 4
