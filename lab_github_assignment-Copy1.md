@@ -1,7 +1,7 @@
 #Quiz
 ##Recursion and Running from the Command line
 
-##Group 1 (Yuyang Han, Xinyi Wang，Yue Shen)
+##Group 1 (Yuyang Han, Xinyi Wang, Yue Shen)
 
 ##Question1
 
