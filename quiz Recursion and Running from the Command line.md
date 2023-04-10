@@ -7,9 +7,13 @@
 Which of these activities are good use cases for recursive programs? Check all that apply.
 
 A.Going through a file system collecting information related to directories and files.
+
 B.Creating a user account.
+
 C.Installing or upgrading software on the computer.
+
 D.Managing permissions assigned to groups inside a company, when each group can contain both subgroups and users.
+
 E.Checking if a computer is connected to the local network.
 
 
@@ -24,11 +28,14 @@ As the groups can contain both groups and users, this is the kind of problem tha
 
 What is the output of this code?
 
-
 def squarer(n):
+
    if n == 1:
+   
       return 2
+      
    else:
+   
       return squarer(n+1) ** 2 + n
 
 squarer(2)
