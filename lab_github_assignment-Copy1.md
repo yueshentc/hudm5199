@@ -43,6 +43,7 @@ C.6
 D.7
 
 Correct Answer: D
+
 When squarer(2) is called, the function will first check the value of n:
 
 n is not equal to 1, so the function will call squarer(n+1) with n+1 = 3.
@@ -86,6 +87,7 @@ C.11
 D.None of these
 
 Correct Answer: C
+
 The output of the code will be 11.
 
 The function sumArray() takes two parameters, an array arr and a number num. It iterates through the array and recursively calls itself with a slice of the array starting from the next index and the sum of the current number and num.
@@ -134,6 +136,7 @@ C.6
 D.7
 
 Correct Answer: B
+
 The output of the code will have five lines. Each line will contain the numbers from 1 to n-1, separated by a space. The number of elements in each line decreases by 1 from the top to the bottom. So the first line will have 4 elements, the second line will have 3 elements, and so on. Therefore, the total number of elements in the output will be:
 
 4 + 3 + 2 + 1 = 10
