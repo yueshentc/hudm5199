@@ -8,12 +8,12 @@ What is the output of this code?
 
 def squarer(n):
 
-   if n == 1:
-   
-       return 2
-      
-   else:
-   
+   if n==1:
+
+        return 2
+
+    else:
+
        return squarer(n+1) ** 2 + n
 
 squarer(2)
