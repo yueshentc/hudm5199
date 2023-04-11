@@ -6,7 +6,7 @@
 
 What is the output of this code?
 
-def squarer(n):
+ def squarer(n):
 
     if n==1:
 
@@ -16,7 +16,8 @@ def squarer(n):
 
        return squarer(n+1) ** 2 + n
 
-squarer(2)
+ squarer(2)
+
 
 A.4
 
@@ -44,7 +45,7 @@ Find the output of the code given below?
 
 s = 0
 
-def sumArray(arr,num):
+ def sumArray(arr,num):
 
     for i in range(len(arr)):
 
@@ -58,9 +59,10 @@ def sumArray(arr,num):
 
  
 
-arr = [1,2,0,3,5]
+ arr = [1,2,0,3,5]
 
-print(sumArray(arr,s))
+ print(sumArray(arr,s))
+
 
 
 A.2
@@ -93,7 +95,7 @@ In the final call, it adds the only element 5 to the current sum num = 6 and ret
 How many times does 5 appear in the output of the code given below?
  
 
-def matrix(n):
+ def matrix(n):
 
     if n==1:
 
@@ -109,9 +111,7 @@ def matrix(n):
 
         matrix(n-1)
 
- 
-
-matrix(5)
+ matrix(5)
 
 A.5
 
