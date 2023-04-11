@@ -62,6 +62,7 @@ arr = [1,2,0,3,5]
 
 print(sumArray(arr,s))
 
+
 A.2
 
 B.12035
