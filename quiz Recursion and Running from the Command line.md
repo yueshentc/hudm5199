@@ -6,7 +6,8 @@
 
 What is the output of this code?
 
- def squarer(n):
+```
+def squarer(n):
 
     if n==1:
 
@@ -17,7 +18,7 @@ What is the output of this code?
        return squarer(n+1) ** 2 + n
 
  squarer(2)
-
+```
 
 A.4
 
@@ -42,7 +43,7 @@ So the output of the code when squarer(2) is called is 7.
 
 ### Question2
 Find the output of the code given below?
-
+```
 s = 0
 
  def sumArray(arr,num):
@@ -62,7 +63,7 @@ s = 0
  arr = [1,2,0,3,5]
 
  print(sumArray(arr,s))
-
+```
 
 
 A.2
@@ -94,7 +95,7 @@ In the final call, it adds the only element 5 to the current sum num = 6 and ret
 ### Question3
 How many times does 5 appear in the output of the code given below?
  
-
+```
  def matrix(n):
 
     if n==1:
@@ -112,6 +113,7 @@ How many times does 5 appear in the output of the code given below?
         matrix(n-1)
 
  matrix(5)
+```
 
 A.5
 
