@@ -6,6 +6,19 @@ As part of the Bill & Melinda Gates Foundation’s Postsecondary Success Strateg
 
 Frontier Set Sites are asked to submit longitudinal student-level data each academic year to allow for tracking of students’ progress over time. The purpose of the Frontier Set data collection is to support analyses that examine the outcomes of students as related to their academic preparation, progress through their academics, financial aid policies and practices, and eventual success in completing their program of study.
 
+## General information
+Investigator: 
+Elif Bor, Data Team Manager(ebor@coffeyconsultingllc.com)
+Thad (Hobie) Bowman, Data Coordinator(tbowman@coffeyconsultingllc.com)
+Mason Erwin, Data Coordinator(merwin@coffeyconsultingllc.com)
+Melissa Howard, Data Coordinator(mhoward@coffeyconsultingllc.com)
+Samantha Richardson, Data Coordinator srichardson@coffeyconsultingllc.com
+
+Country: the USA
+
+Goal:
+The purpose of the Frontier Set data collection is to support analyses that examine the outcomes of students as related to their academic preparation, progress through their academics, financial aid policies and practices, and eventual success in completing their program of study.
+
 ## Type of Data
 Different types of data are collected: institutional characteristics and institution-level data such as course information, and student-unit-record (SUR) data. Student demographics and previous education, academic progress, and National Student Clearinghouse data (to identify students’ prior and subsequent enrollments and credentials) are collected at the student level. General data collection information follows; details about file structures, data submission methods, and specific data definitions are included in the Data Dictionary and File Creation section of this document.
 ## Data Fields
@@ -35,6 +48,17 @@ The dataset is public and it is accessible to everyone.
 
 ## Data Source
 Kaggle link：https://www.kaggle.com/competitions/hud4050studentdropoutfall22/data
+
+## Methodology
+1.	Set up hypotheses.
+2.	Sort and clean data and build a standardized dataset which can be used for a quantitative research.
+3.	Use summary statistics and relevant plot to maximize insight of dataset, detect any outliers and anomalies that may potentially affect the output of model. 
+4.	Select variables to build regression model and correlation model to find the relationship between the variables, and explore the various factors that affect student academic success.
+5.	Use Python or R to build models to examine the impact of these factors on student academic performance.
+6.	Compare the results with the hypotheses, and finally draw the conclusion.
+
+## Sharing and Accessing 
+The dataset is public and it is accessible to everyone. I will add the study/project/data description to the main publication. After the completion of the project, the data will be shared/available upon request.
 
 ### Additional Questions
 #### Which metadata standard did you choose and why?
